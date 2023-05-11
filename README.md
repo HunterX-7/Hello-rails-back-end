@@ -16,11 +16,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [🚀 Live Demo & Project Presentation](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
+  - [Frontend](#frontend)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -28,7 +28,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello World App <a name="about-project"></a>
+# 📖 Hello World Backend <a name="about-project"></a>
 
 This repository contains a sample project that demonstrates how to connect a Ruby on Rails back-end with a React front-end. The goal of this exercise is to apply previous knowledge of using gems with Rails to connect the back-end with the front-end, while also introducing new techniques for handling JavaScript assets in a Rails application.
 
@@ -86,20 +86,20 @@ To clone this repository to your desired folder:
 - You can download the **Zip** file from the GitHub repository, or clone the repository with:
 
 ```console
-git clone https://github.com/HunterX-7/Hello-World.git
+git clone https://github.com/HunterX-7/Hello-rails-back-end.git
 ```
 
 - Access the cloned directory with:
 
 ```console
-cd Hello-World
+cd Hello-rails-back-end
 ```
 
 - Open it with your favorite code editor or with the live server
 
 ### Usage
 
-It is require that you setup your database to run this project, check the config/database.yml and make sure that the username and password match you postgresql setup, then run:
+It is require that you set up your database to run this project, check the config/database.yml and make sure that the username and password match you postgresql setup, then run:
 
 ```console
 yarn
@@ -113,17 +113,16 @@ rails db:create
 rails db:migrate
 ```
 
-To run the front-end, execute the following commands in the project directory:
-
-```console
-yarn build --watch
-```
-
 To run the project, execute the following command in the project directory:
 
 ```console
 rails server
 ```
+
+### Frontend
+
+***To get the Frontend you need to follow this link and download the repo and follow the instructions of the Frontend README file
+[Here](https://github.com/HunterX-7/Hello-react-front-end).***
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +150,7 @@ We will implement this on the future:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HunterX-7/Hello-World/issues).
+Feel free to check the [issues page](https://github.com/HunterX-7/Hello-rails-back-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
